@@ -1,0 +1,31 @@
+{
+  "name": "ismart-utils",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hnzxb/ismart-utils.git"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "utils"
+  ],
+  "author": "ben.zeng@sharemarking.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hnzxb/ismart-utils/issues"
+  },
+  "homepage": "https://github.com/hnzxb/ismart-utils#readme",
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "express": "^4.15.4",
+    "fs-extra": "^4.0.1",
+    "joi": "^10.6.0",
+    "lodash": "^4.17.4"
+  }
+}

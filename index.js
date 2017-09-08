@@ -1,0 +1,12 @@
+var Utils          = {};
+Utils.Promise      = require("bluebird");
+Utils._            = require("lodash");
+Utils.fs           = require("fs-extra");
+Utils.joi          = require("joi");
+Utils.path         = require("path");
+Utils.crypto       = require("crypto");
+Utils.md5          = function (string) { return this.crypto.createHash('md5').update(string).digest('hex');}
+Utils.sha          = function (string) { return this.crypto.createHash('sha').update(string).digest('hex');}
+Utils.base64Encode = function (string) { return new Buffer(string).toString('base64');}
+Utils.base64Decode = function (buffer) { return new Buffer(buffer, 'base64').toString();}
+module.exports     = Utils;
